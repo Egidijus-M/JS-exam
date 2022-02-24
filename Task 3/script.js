@@ -45,6 +45,7 @@ const createCard = (user) => {
   const avatar = document.createElement("img");
   const avatarUrl = user.avatar_url;
   avatar.setAttribute("src", avatarUrl);
+  avatar.setAttribute("alt", "user-avatar");
 
   divCard.append(login, avatar);
 
